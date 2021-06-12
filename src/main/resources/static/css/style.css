@@ -11,7 +11,17 @@
 .left{
     width: 100%;
 }
-
+.message-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+}
+.new-message{
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
 .right{
     width: 400px;
     background-color: #fff;

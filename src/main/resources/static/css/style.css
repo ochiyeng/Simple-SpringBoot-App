@@ -49,4 +49,8 @@
     background-color: #fff;
     border-radius: 10px;
     margin-left: 10px;
+    padding: 10px;
+}
+.user-items{
+    margin-bottom: 10px;
 }

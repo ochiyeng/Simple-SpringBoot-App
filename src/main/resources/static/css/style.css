@@ -6,23 +6,44 @@
     padding: 15px;
     display: flex;
     align-items: stretch;
-    justify-content: stretch;
 }
 .left{
     width: 100%;
 }
 .message-container{
-    background-color: #ffffff;
     border-radius: 10px;
     margin-bottom: 10px;
-    padding: 15px;
-    height: 500px;
     padding: 10px;
+    height: 500px;
+    overflow-y: scroll;
+    background-color: #ffffff;
+
 }
 .new-message{
-    height: 90px;
     background-color: #ffffff;
+    height: 50px;
     border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.new-message textarea{
+    border: 0;
+    width: 600px;
+    height: 100%;
+}
+.new-message button {
+    background-color: #3735f4;
+    color: white;
+    padding: 15px 45px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.message{
+    margin-bottom:10px ;
 }
 .right{
     width: 400px;
